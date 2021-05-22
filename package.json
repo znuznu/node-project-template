@@ -1,0 +1,60 @@
+{
+    "name": "project-template",
+    "version": "1.0.0",
+    "description": "A Node.js project template",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "tsc && node build/src/app.js",
+        "dev": "nodemon",
+        "test": "jest",
+        "t:u": "jest --config jest.config.utest.ts",
+        "t:i": "jest --config jest.config.itest.ts",
+        "lint-check": "eslint src/**/*.ts",
+        "lint-fix": "eslint --fix src/**/*.ts",
+        "fmt": "prettier --config .prettierrc --ignore-path .prettierignore --write \"src/**/*.ts\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/znuznu/node-project-template.git"
+    },
+    "keywords": [
+        "template",
+        "node",
+        "typescript"
+    ],
+    "author": "znu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/znuznu/node-project-template/issues"
+    },
+    "homepage": "https://github.com/znuznu/node-project-template#readme",
+    "dependencies": {
+        "pino": "^6.11.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/jest": "^26.0.23",
+        "@types/node": "^15.6.0",
+        "@types/pino": "^6.3.8",
+        "@typescript-eslint/eslint-plugin": "^4.24.0",
+        "@typescript-eslint/parser": "^4.24.0",
+        "eslint": "^7.27.0",
+        "husky": "^6.0.0",
+        "jest": "^26.6.3",
+        "lint-staged": "^11.0.0",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.3.0",
+        "ts-jest": "^26.5.6",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+    "lint-staged": {
+        "src/**/*.ts": "prettier --write --config .prettierrc"
+    },
+    "engines": {
+        "node": "14",
+        "npm": "7"
+    }
+}

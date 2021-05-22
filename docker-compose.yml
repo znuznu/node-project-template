@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+    template:
+        container_name: node-template
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes:
+            - .:/app
+        #ports:
+        #    - '3000:3000'
+        #env_file:
+        #    - .env
+        # networks:
+        # - some-network
+# networks:
+#    some-network:
+
+# volumes:
+#    some-volume:
