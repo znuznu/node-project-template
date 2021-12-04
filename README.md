@@ -4,7 +4,7 @@ A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [
 
 ## Requirements
 
--   [Node.js](https://nodejs.org/en/) 14 LTS
+-   [Node.js](https://nodejs.org/en/) 16 LTS
 -   [Docker](https://www.docker.com/)
 -   [Docker-compose](https://docs.docker.com/compose/)
 
@@ -15,8 +15,8 @@ A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [
 | `npm start`          | Start the server                                |
 | `npm run dev`        | Run with nodemon                                |
 | `npm test`           | Run all tests                                   |
-| `npm run t:u`        | Run unit tests                                  |
-| `npm run t:i`        | Run integration tests                           |
+| `npm run t:u`        | Run unit tests (`*.utest.ts` files)             |
+| `npm run t:i`        | Run integration tests (`*.itest.ts` files)      |
 | `npm run lint-check` | Check linting with ESLint                       |
 | `npm run lint-fix`   | Fix linting                                     |
 | `npm run fmt`        | Format code with Prettier                       |
