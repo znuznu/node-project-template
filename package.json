@@ -28,9 +28,6 @@
         "url": "https://github.com/znuznu/node-project-template/issues"
     },
     "homepage": "https://github.com/znuznu/node-project-template#readme",
-    "dependencies": {
-        "pino": "7.5.1"
-    },
     "devDependencies": {
         "@types/node": "16.11.11",
         "@typescript-eslint/eslint-plugin": "5.5.0",

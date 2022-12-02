@@ -1,6 +1,6 @@
 # node-project-template
 
-A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/), [Vitest](https://vitest.dev/) and [Pino](https://getpino.io/#/).
+A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/), [Vitest](https://vitest.dev/).
 
 ## Requirements
 
