@@ -9,8 +9,8 @@
         "test": "vitest",
         "test:unit": "vitest --config vitest.config.unit.ts",
         "test:integration": "vitest --config vitest.config.integration.ts",
-        "lint-check": "eslint src/**/*.ts",
-        "lint-fix": "eslint --fix src/**/*.ts",
+        "lint:check": "eslint src/**/*.ts",
+        "lint:fix": "eslint --fix src/**/*.ts",
         "fmt": "prettier --config .prettierrc --ignore-path .prettierignore --write \"src/**/*.ts\""
     },
     "repository": {
