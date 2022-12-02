@@ -4,7 +4,7 @@ A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [
 
 ## Requirements
 
--   [Node.js](https://nodejs.org/en/) 16 LTS
+-   [Node.js](https://nodejs.org/en/) 18 LTS
 -   [Docker](https://www.docker.com/)
 -   [Docker-compose](https://docs.docker.com/compose/)
 

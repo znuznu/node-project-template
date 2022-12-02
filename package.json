@@ -29,7 +29,7 @@
     },
     "homepage": "https://github.com/znuznu/node-project-template#readme",
     "devDependencies": {
-        "@types/node": "16.11.11",
+        "@types/node": "18.11.10",
         "@typescript-eslint/eslint-plugin": "5.5.0",
         "@typescript-eslint/parser": "5.5.0",
         "eslint": "8.4.0",
@@ -45,7 +45,7 @@
         "src/**/*.ts": "prettier --write --config .prettierrc"
     },
     "engines": {
-        "node": "16",
+        "node": "18",
         "npm": "8"
     }
 }
