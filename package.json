@@ -6,9 +6,9 @@
     "scripts": {
         "start": "tsc && node build/src/app.js",
         "dev": "nodemon",
-        "test": "jest",
-        "t:u": "jest --config jest.config.utest.ts",
-        "t:i": "jest --config jest.config.itest.ts",
+        "test": "vitest",
+        "test:unit": "vitest --config vitest.config.unit.ts",
+        "test:integration": "vitest --config vitest.config.integration.ts",
         "lint-check": "eslint src/**/*.ts",
         "lint-fix": "eslint --fix src/**/*.ts",
         "fmt": "prettier --config .prettierrc --ignore-path .prettierignore --write \"src/**/*.ts\""
@@ -34,20 +34,18 @@
     "devDependencies": {
         "@babel/core": "7.16.0",
         "@babel/preset-env": "7.16.0",
-        "@babel/preset-typescript": "^7.16.0",
-        "@types/jest": "27.0.3",
+        "@babel/preset-typescript": "7.16.0",
         "@types/node": "16.11.11",
         "@typescript-eslint/eslint-plugin": "5.5.0",
         "@typescript-eslint/parser": "5.5.0",
         "eslint": "8.4.0",
         "husky": "6.0.0",
-        "jest": "27.4.3",
         "lint-staged": "11.0.0",
         "nodemon": "2.0.15",
         "prettier": "2.5.1",
-        "ts-jest": "27.0.7",
         "ts-node": "10.4.0",
-        "typescript": "4.5.2"
+        "typescript": "4.5.2",
+        "vitest": "0.25.3"
     },
     "lint-staged": {
         "src/**/*.ts": "prettier --write --config .prettierrc"
