@@ -30,9 +30,9 @@
     "homepage": "https://github.com/znuznu/node-project-template#readme",
     "devDependencies": {
         "@types/node": "18.11.10",
-        "@typescript-eslint/eslint-plugin": "5.5.0",
-        "@typescript-eslint/parser": "5.5.0",
-        "eslint": "8.4.0",
+        "@typescript-eslint/eslint-plugin": "5.45.0",
+        "@typescript-eslint/parser": "5.45.0",
+        "eslint": "8.28.0",
         "husky": "6.0.0",
         "lint-staged": "11.0.0",
         "nodemon": "2.0.20",
