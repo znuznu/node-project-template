@@ -4,7 +4,7 @@ A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [
 
 ## Requirements
 
--   [Node.js](https://nodejs.org/en/) 18 LTS
+-   [Node.js](https://nodejs.org/en/) 20 LTS
 -   [Docker](https://www.docker.com/)
 -   [Docker-compose](https://docs.docker.com/compose/)
 
@@ -13,7 +13,7 @@ A Node.js project template with [TypeScript](https://www.typescriptlang.org/), [
 | Command                    | Description                                     |
 | -------------------------- | ----------------------------------------------- |
 | `npm start`                | Start the server                                |
-| `npm run dev`              | Run with nodemon                                |
+| `npm run dev`              | Run dev server with nodemon                     |
 | `npm test`                 | Run all tests                                   |
 | `npm run test:unit`        | Run unit tests (`*.utest.ts` files)             |
 | `npm run test:integration` | Run integration tests (`*.itest.ts` files)      |

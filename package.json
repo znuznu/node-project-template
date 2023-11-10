@@ -1,51 +1,51 @@
 {
-    "name": "project-template",
-    "version": "1.0.0",
-    "description": "A Node.js project template",
-    "main": "src/app.js",
-    "scripts": {
-        "start": "tsc && node build/src/app.js",
-        "dev": "nodemon",
-        "test": "vitest",
-        "test:unit": "vitest --config vitest.config.unit.ts",
-        "test:integration": "vitest --config vitest.config.integration.ts",
-        "lint:check": "eslint src/**/*.ts",
-        "lint:fix": "eslint --fix src/**/*.ts",
-        "fmt": "prettier --config .prettierrc --ignore-path .prettierignore --write \"src/**/*.ts\""
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/znuznu/node-project-template.git"
-    },
-    "keywords": [
-        "template",
-        "node",
-        "typescript"
-    ],
-    "author": "znu",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/znuznu/node-project-template/issues"
-    },
-    "homepage": "https://github.com/znuznu/node-project-template#readme",
-    "devDependencies": {
-        "@types/node": "18.11.10",
-        "@typescript-eslint/eslint-plugin": "5.45.0",
-        "@typescript-eslint/parser": "5.45.0",
-        "eslint": "8.28.0",
-        "husky": "6.0.0",
-        "lint-staged": "11.0.0",
-        "nodemon": "2.0.20",
-        "prettier": "2.5.1",
-        "ts-node": "10.9.1",
-        "typescript": "4.9.3",
-        "vitest": "0.25.3"
-    },
-    "lint-staged": {
-        "src/**/*.ts": "prettier --write --config .prettierrc"
-    },
-    "engines": {
-        "node": "18",
-        "npm": "8"
-    }
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "A Node.js project template",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "tsc && node build/src/app.js",
+    "dev": "nodemon",
+    "test": "vitest",
+    "test:unit": "vitest --config vitest.config.unit.ts",
+    "test:integration": "vitest --config vitest.config.integration.ts",
+    "lint:check": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts",
+    "fmt": "prettier --config .prettierrc --ignore-path .prettierignore --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znuznu/node-project-template.git"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "typescript"
+  ],
+  "author": "znu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/znuznu/node-project-template/issues"
+  },
+  "homepage": "https://github.com/znuznu/node-project-template#readme",
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
+    "eslint": "8.53.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2",
+    "nodemon": "3.0.1",
+    "prettier": "3.0.3",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2",
+    "vitest": "0.34.6"
+  },
+  "lint-staged": {
+    "src/**/*.ts": "prettier --write --config .prettierrc"
+  },
+  "engines": {
+    "node": "20",
+    "npm": "10"
+  }
 }
